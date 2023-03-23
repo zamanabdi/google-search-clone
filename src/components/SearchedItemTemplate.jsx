@@ -5,7 +5,7 @@ const SearchedItemTemplate = ({ data }) => {
       }
 
   return (
-    <div className="flex flex-col py-3 max-w-[700px]">
+    <div className="flex flex-col py-3 px-3 w-[340px] md:w-[700px]">
       <div
         className="group cursor-pointer"
         onClick={() => window.open(data.link)}
