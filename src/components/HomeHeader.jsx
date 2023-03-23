@@ -10,6 +10,7 @@ const HomeHeader = () => {
         <ProfileIcon/>
         </header>
     )
+    
 };
 
 export default HomeHeader;
